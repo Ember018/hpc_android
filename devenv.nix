@@ -5,14 +5,18 @@
   # Android development
   android = {
     enable = true;
-    platforms.version = [ "32" "34" ];
+    flutter.enable = true;
+    platforms.version = [ "32" "33" "34" ];
     systemImageTypes = [ "google_apis_playstore"];
     abis = [ "arm64-v8a" "x86_64" ];
     cmake.version = [ "3.22.1" ];
     cmdLineTools.version = "11.0";
     tools.version = "26.1.1";
     platformTools.version = "34.0.5";
-    buildTools.version = [ "30.0.3" ];
+    buildTools.version = [ 
+      "30.0.3"
+      "33.0.1"
+    ];
     emulator = {
       enable = true;
       version = "34.1.9";
@@ -48,7 +52,7 @@
   # https://devenv.sh/packages/
   packages = [ 
     pkgs.git
-    pkgs.dart
+    pkgs.vscode
   ];
 
   # https://devenv.sh/languages/
@@ -68,6 +72,7 @@
   enterShell = ''
     hello
     git --version
+    flutter --version
     dart --version
   '';
 
