@@ -52,7 +52,7 @@
   # https://devenv.sh/packages/
   packages = [ 
     pkgs.git
-    pkgs.vscode
+    pkgs.vscodium
   ];
 
   # https://devenv.sh/languages/
