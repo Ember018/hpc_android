@@ -1,3 +1,4 @@
+import 'package:buoi4/common_screen.dart';
 import 'package:buoi4/electronics_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -8,7 +9,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: 'Products',
       home: Homepage(),
     );
@@ -35,7 +36,16 @@ class Homepage extends StatelessWidget {
                       MaterialPageRoute(
                           builder: (context) => const ElectronicsScreen()));
                 },
-              )
+              ),
+              const SizedBox(height: 20),
+              ElevatedButton(
+                  child: const Text("Common Products"),
+                  onPressed: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const CommonScreen()));
+                  }),
             ]),
       ),
     );

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Cool T-Shirt ",
+    "price": 15.99,
+    "image": "https://images.pexels.com/photos/1656684/pexels-photo-1656684.jpeg?auto=compress&cs=tinysrgb&w=500"
+  },
+  {
+    "name": "Ramro Polo Shoes",
+    "price": 22.5,
+    "image": "https://images.pexels.com/photos/4061395/pexels-photo-4061395.jpeg?auto=compress&cs=tinysrgb&w=500"
+  },
+  {
+    "name": "Kitchen Knife Set",
+    "price": 45.75,
+    "image": "https://images.pexels.com/photos/3020890/pexels-photo-3020890.jpeg?auto=compress&cs=tinysrgb&w=500"
+  },
+  {
+    "name": "Towel Collection",
+    "price": 12.0,
+    "image": "https://images.pexels.com/photos/263337/pexels-photo-263337.jpeg?auto=compress&cs=tinysrgb&w=500"
+  },
+  {
+    "name": "Stylish Long Sleeve",
+    "price": 25.0,
+    "image": "https://images.pexels.com/photos/769733/pexels-photo-769733.jpeg?auto=compress&cs=tinysrgb&w=500"
+  },
+  {
+    "name": "Living Room Lamp",
+    "price": 32.45,
+    "image": "https://images.pexels.com/photos/1112598/pexels-photo-1112598.jpeg?auto=compress&cs=tinysrgb&w=500"
+  },
+  {
+    "name": "Red Fast Shoes",
+    "price": 28.0,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60"
+  }
+]

@@ -5,6 +5,8 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -21,7 +23,7 @@ class MyApp extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Icon(Icons.school, size: 100, color: Colors.blue),
+                const Icon(Icons.school, size: 100, color: Colors.blue),
                 const SizedBox(height: 30),
 
                 // Username TextField
@@ -32,7 +34,7 @@ class MyApp extends StatelessWidget {
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(8.0),
                     ),
-                    prefixIcon: Icon(Icons.person), // Add an icon
+                    prefixIcon: const Icon(Icons.person), // Add an icon
                   ),
                   keyboardType:
                       TextInputType.text, // Set appropriate keyboard type
@@ -48,7 +50,7 @@ class MyApp extends StatelessWidget {
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(8.0),
                     ),
-                    prefixIcon: Icon(Icons.lock),
+                    prefixIcon: const Icon(Icons.lock),
                   ),
                   keyboardType: TextInputType.visiblePassword,
                 ),
@@ -92,9 +94,9 @@ class MyApp extends StatelessWidget {
                 const SizedBox(height: 40),
 
                 RichText(
-                  text: TextSpan(
+                  text: const TextSpan(
                     children: <TextSpan>[
-                      const TextSpan(
+                      TextSpan(
                         text: "Don't have an account? ",
                         style: TextStyle(
                           color: Colors.black,
@@ -102,7 +104,7 @@ class MyApp extends StatelessWidget {
                       ),
                       TextSpan(
                         text: 'Register',
-                        style: const TextStyle(
+                        style: TextStyle(
                           color: Colors.blue,
                           fontWeight: FontWeight.bold,
                         ),
