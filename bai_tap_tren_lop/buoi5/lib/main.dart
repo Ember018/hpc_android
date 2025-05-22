@@ -1,3 +1,5 @@
+import 'package:buoi5/form.dart';
+import 'package:buoi5/random_list.dart';
 import 'package:buoi5/table_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -35,6 +37,22 @@ class Homepage extends StatelessWidget {
                         builder: (context) => const TableScreen()));
               },
             ),
+            ElevatedButton(
+                child: const Text("Random list"),
+                onPressed: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const PostListPage()));
+                }),
+            ElevatedButton(
+                child: const Text("Form"),
+                onPressed: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const PostForm()));
+                })
           ],
         ),
       ),
