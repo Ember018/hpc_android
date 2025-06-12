@@ -1,0 +1,26 @@
+
+{
+  "user": {
+    "id": 1,
+    "name": "Nguyễn Văn A",
+    "email": "vana@example.com",
+    "address": {
+      "street": "123 Đường A",
+      "city": "Hà Nội",
+      "zipcode": "100000"
+    },
+    "orders": [
+      {
+        "id": 101,
+        "product": "Laptop",
+        "price": 15000000
+      },
+      {
+        "id": 102,
+        "product": "Chuột không dây",
+        "price": 500000
+      }
+    ]
+  }
+}
+
